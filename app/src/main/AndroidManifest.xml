@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tutorial.letsplay">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity_new" />
+        <activity android:name=".b_activity" />
+        <activity android:name=".c_activity" />
+        <activity android:name=".d_activity" />
+        <activity android:name=".e_activity" />
+        <activity android:name=".f_activity" />
+        <activity android:name=".g_activity" />
+        <activity android:name=".welldone_activity" />
+        <activity android:name=".satu_activity" />
+        <activity android:name=".dua_activity" />
+        <activity android:name=".tiga_activity" />
+        <activity android:name=".empat_activity" />
+        <activity android:name=".lima_activity" />
+        <activity android:name=".ant_activity" />
+        <activity android:name=".bird_activity" />
+        <activity android:name=".cat_activity" />
+        <activity android:name=".dog_activity" />
+        <activity android:name=".swan_activity" />
+        <activity android:name=".red_activity" />
+        <activity android:name=".yellow_activity" />
+        <activity android:name=".green_activity" />
+        <activity android:name=".blue_activity" />
+        <activity android:name=".purple_activity" />
+        <activity android:name=".merah_activity"></activity>
+    </application>
+
+</manifest>

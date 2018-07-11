@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1"
+    tools:context="com.tutorial.letsplay.MainActivity">
+
+    <Button
+        android:id="@+id/buttonCol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/pinkmuda"
+        android:text="Colours" />
+
+    <Button
+        android:id="@+id/buttonLet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/pinkmuda"
+        android:text="Letters" />
+
+    <Button
+        android:id="@+id/buttonNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/pinkmuda"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="20dp"
+        android:text="Numbers" />
+
+
+    <Button
+        android:id="@+id/buttonAni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="430dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:background="@color/pinkmuda"
+        android:text="Animals" />
+
+    <ImageView
+        android:id="@+id/imageWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="115dp"
+        app:srcCompat="@drawable/w5" />
+
+    <ImageView
+        android:id="@+id/imageAbc"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/buttonLet"
+        android:layout_alignStart="@+id/buttonLet"
+        android:layout_below="@+id/imageWelcome"
+        app:srcCompat="@drawable/abc" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="320dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/lp" />
+
+    <ImageView
+        android:id="@+id/imageSatu"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageWelcome"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        app:srcCompat="@drawable/satu" />
+
+    <ImageView
+        android:id="@+id/imageColor"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignEnd="@+id/buttonCol"
+        android:layout_alignRight="@+id/buttonCol"
+        android:layout_below="@+id/buttonLet"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/color" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/imageSatu"
+        android:layout_alignStart="@+id/imageSatu"
+        android:layout_alignTop="@+id/imageColor"
+        app:srcCompat="@drawable/ani" />
+
+    <ImageView
+        android:id="@+id/imagePp3"
+        android:layout_width="220dp"
+        android:layout_height="260dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/pp3" />
+
+    <Button
+        android:id="@+id/button69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_marginTop="23dp"
+        android:text="Button" />
+
+</RelativeLayout>

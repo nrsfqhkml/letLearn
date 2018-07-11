@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorDarkGold">#D68910</color>
+    <color name="colorMedGold">#F39C12</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorSoftGold">#F5B041</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackChoc">#7E5109</color>
+    <color name="pinkmuda">#FAC7E4</color>
+    <color name="pinkgelapsikit">#FFBF51</color>
+    <color name="colours">#ED418C</color>
+    <color name="animals">#E52FC8</color>
+</resources>
