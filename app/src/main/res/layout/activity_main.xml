@@ -115,14 +115,4 @@
         android:layout_centerHorizontal="true"
         app:srcCompat="@drawable/pp3" />
 
-    <Button
-        android:id="@+id/button69"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/imageView2"
-        android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/imageView2"
-        android:layout_marginTop="23dp"
-        android:text="Button" />
-
 </RelativeLayout>

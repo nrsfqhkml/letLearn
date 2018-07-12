@@ -39,7 +39,8 @@
         <activity android:name=".green_activity" />
         <activity android:name=".blue_activity" />
         <activity android:name=".purple_activity" />
-        <activity android:name=".merah_activity"></activity>
+        <activity android:name=".merah_activity" />
+        <activity android:name=".colormerah_activity"></activity>
     </application>
 
 </manifest>

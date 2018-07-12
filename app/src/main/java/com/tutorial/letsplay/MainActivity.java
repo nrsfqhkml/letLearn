@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
     private Button btn2;
     private Button btn3;
     private Button btn4;
-    private Button btn5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         btn2 = findViewById(R.id.buttonNum);
         btn3 = findViewById(R.id.buttonCol);
         btn4 = findViewById(R.id.buttonAni);
-        btn5 = findViewById(R.id.button69);
 
         btn1.setOnClickListener (new View.OnClickListener() {
 
@@ -63,16 +61,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(), ant_activity.class);
-                startActivity(intent);
-            }
-
-        });
-
-        btn5.setOnClickListener (new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), merah_activity.class);
                 startActivity(intent);
             }
 

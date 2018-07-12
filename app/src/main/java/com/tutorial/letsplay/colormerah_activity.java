@@ -9,7 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class yellow_activity extends AppCompatActivity {
+public class colormerah_activity extends AppCompatActivity {
 
     private Button btn1;
     private Button btn2;
@@ -18,7 +18,7 @@ public class yellow_activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_yellow_activity);
+        setContentView(R.layout.activity_colormerah_activity);
 
         btn1 = findViewById(R.id.button54);
         btn2 = findViewById(R.id.button55);
@@ -52,6 +52,7 @@ public class yellow_activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
 
     }
 }
